@@ -20,7 +20,7 @@ function UserDetails({ currentUser }) {
               <img
                 src={currentUser?.avatar}
                 alt="profile image"
-                className="w-32 h-32 rounded-full bg-[#D4D4D4]"
+                className="w-32 h-32 rounded-full flex justify-center items-center bg-[#D4D4D4]"
               />
               <p>@{currentUser?.profile?.username}</p>
             </div>
