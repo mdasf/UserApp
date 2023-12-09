@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Montserrat:wght@300;400;500;600&family=Pattaya&family=Public+Sans:wght@300;400;600;700&display=swap');
+:root {
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
+  font-size: 14px;
+}
