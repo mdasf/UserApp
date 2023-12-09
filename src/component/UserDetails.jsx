@@ -1,7 +1,10 @@
 import React from "react";
 
 function UserDetails({ currentUser }) {
-  if (!currentUser) return <div>User Info not available.</div>;
+  if (!currentUser)
+    return (
+      <div className="max-w-2xl w-full md:w-1/2">User Info not available.</div>
+    );
 
   return (
     <div className="max-w-2xl w-full md:w-1/2">
